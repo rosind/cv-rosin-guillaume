@@ -327,17 +327,25 @@ footer p{
     }
 }
 @media screen and (max-width: 320px) {
-    html{
-        /*width: 100%;*/
+    body{
+        width: 320px;
     }
     .all{
         width: 100%;
-        margin: 10px;
+        /*margin: 10px;*/
     }
     .rigth-container h3{
         font-size: 1.2em;
     }
     .rigth-container h2{
+        font-size: 1.4em;
+    }
+
+    
+    h4{
+        font-size: 1.3em;
+    }
+    .first-name{
         font-size: 1.4em;
     }
     
